@@ -28,6 +28,7 @@ nav {
 }
 
 .projects {
+	background-color: teal;
 	grid-column: 1 / 4;
 	grid-row: 4;
 }
