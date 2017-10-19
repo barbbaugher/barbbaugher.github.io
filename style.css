@@ -11,7 +11,7 @@
 	"header header header"
 	"nav nav nav"
 	"about about about"
-	"projects projects projects"
+	"project1 project2 project3"
 	"footer footer footer";
 }
 
@@ -30,8 +30,16 @@ nav {
 	background-color: purple;
 }
 
-.projects {
-	grid-area: projects;
+#project1 {
+	grid-area: project1;
+}
+
+#project2 {
+	grid-area: project2;
+}
+
+#project3 {
+	grid-area: project3;
 }
 
 footer {
