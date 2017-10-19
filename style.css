@@ -16,6 +16,7 @@ header {
 }
 
 nav {
+	background-color: teal;
 	grid-column: 1 / 4;
 	grid-row: 2;
 }
@@ -33,19 +34,19 @@ nav {
 	grid-row: 4;
 }
 
-#project1 {
+.project1 {
 	background-color: orange;
 	grid-column: 1 / 2;
 	grid-row: 5;
 }
 
-#project2 {
+.project2 {
 	background-color: teal;
 	grid-column: 2 / 3;
 	grid-row 5;
 }
 
-#project3 {
+.project3 {
 	background-color: purple;
 	grid-column: 3 / 4;
 	grid-row 5;
