@@ -37,6 +37,7 @@ nav {
 
 #project1 {
 	grid-area: project1;
+	background-color: orange;
 }
 
 #project2 {
