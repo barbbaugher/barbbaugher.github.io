@@ -12,7 +12,7 @@
 	"nav nav nav"
 	"about about about"
 	"projects projects projects"
-	"contact contact contact";
+	"footer footer footer";
 }
 
 header {
@@ -35,7 +35,7 @@ nav {
 	grid-area: projects;
 }
 
-.contact {
-	grid-area: contact;
+footer {
+	grid-area: footer;
 	background-color: teal;
 }
