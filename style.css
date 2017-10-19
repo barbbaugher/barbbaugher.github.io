@@ -6,11 +6,12 @@
 .grid {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 20% 20% 20% 20% 20%;
+	grid-template-rows: 16% 16% 16% 16% 16% 16%;
 	grid-template-areas:
 	"header header header"
 	"nav nav nav"
 	"about about about"
+	"projects projects projects"
 	"project1 project2 project3"
 	"footer footer footer";
 }
@@ -28,6 +29,10 @@ nav {
 
 	grid-area: about;
 	background-color: purple;
+}
+
+.projects {
+	grid-area: projects;
 }
 
 #project1 {
