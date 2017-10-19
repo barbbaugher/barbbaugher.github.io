@@ -21,6 +21,10 @@ nav {
 	grid-row: 2;
 }
 
+main {
+
+}
+
 .about {
 	grid-column: 1 / 4;
 	grid-row: 3;
