@@ -15,7 +15,7 @@
 	"contact contact contact";
 }
 
-header {
+.header {
 	grid-area: header;
 	background-color: orange;
 }
