@@ -7,48 +7,49 @@
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 16% 16% 16% 16% 16% 16%;
-	grid-template-areas:
-	"header header header"
-	"nav nav nav"
-	"about about about"
-	"projects projects projects"
-	"project1 project2 project3"
-	"footer footer footer";
 }
 
 header {
-	grid-area: header;
+	grid-column: 1 / 4;
+	grid-row: 1;
 	background-color: orange;
 }
 
 nav {
-	grid-area: nav;
+	grid-column: 1 / 4;
+	grid-row: 2;
 }
 
 .about {
 
-	grid-area: about;
+	grid-column: 1 / 4;
+	grid-row: 3;
 	background-color: purple;
 }
 
 .projects {
-	grid-area: projects;
+	grid-column: 1 / 4;
+	grid-row: 4;
 }
 
 #project1 {
-	grid-area: project1;
 	background-color: orange;
+	grid-column: 1 / 2;
+	grid-row: 5;
 }
 
 #project2 {
-	grid-area: project2;
+	grid-column: 2 / 3;
+	grid-row 5;
 }
 
 #project3 {
-	grid-area: project3;
+	grid-column: 3 / 4;
+	grid-row 5;
 }
 
 footer {
-	grid-area: footer;
+	grid-column: 1 / 4;
+	grid-row: 6;
 	background-color: teal;
 }
