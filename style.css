@@ -6,4 +6,32 @@
 .grid {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-areas:
+	"header header header"
+	"nav nav nav"
+	"about about about"
+	"projects projects projects"
+	"contact contact contact";
+}
+
+header {
+	grid-area: header;
+}
+
+nav {
+	grid-area: nav;
+}
+
+.about {
+
+	grid-area: about;
+}
+
+.projects {
+	grid-area: projects;
+}
+
+.contact {
+	grid-area: contact;
 }
