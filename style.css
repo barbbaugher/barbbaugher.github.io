@@ -22,7 +22,6 @@ header {
 
 nav {
 	grid-area: nav;
-	background-color: blue;
 }
 
 .about {
