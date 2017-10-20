@@ -42,13 +42,13 @@ nav {
 #project2 {
 	background-color: teal;
 	grid-column: 2 / 3;
-	grid-row 5;
+	grid-row: 5;
 }
 
 #project3 {
 	background-color: purple;
 	grid-column: 3 / 4;
-	grid-row 5;
+	grid-row: 5;
 }
 
 footer {
