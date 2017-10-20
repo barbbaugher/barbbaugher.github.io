@@ -29,7 +29,6 @@ nav {
 	grid-column: 1 / 4;
 	grid-row: 3;
 	line-height: 1.5em;
-	float: left;
 }
 
 .projects {
@@ -81,4 +80,9 @@ a:hover {
 }
 a:active {
 	color: #DC4C46;
+}
+
+#photo {
+	float: left;
+	margin: 0 0 10px 10px;
 }
