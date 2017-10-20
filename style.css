@@ -33,10 +33,6 @@ nav {
 	grid-row: 4;
 }
 
-section {
-	display: flex;
-}
-
 #project1 {
 	background-color: orange;
 	grid-column: 1;
