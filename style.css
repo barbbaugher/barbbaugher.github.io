@@ -33,7 +33,7 @@ nav {
 	grid-row: 4;
 }
 
-article #project1 {
+#project1 {
 	background-color: orange;
 	grid-column: 1;
 	grid-row: 5;
