@@ -22,6 +22,7 @@ nav {
 	grid-row: 1;
 	background-color: #223A5E;
 	color: white;
+	line-height: 0.5em;
 }
 
 .about {
@@ -63,10 +64,10 @@ footer {
 img, img.scale-with-grid { outline: 0; max-width: 100%; height: auto; }
 
 a:link {
-	color: #898E8C;
+	color: #C48F65;
 }
 a:visited {
-	color: #C48F65;
+	color: #898E8C;
 }
 a:hover {
 	color: #DC4C46;
