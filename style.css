@@ -29,6 +29,7 @@ nav {
 	grid-column: 1 / 4;
 	grid-row: 3;
 	line-height: 1.5em;
+	float: left;
 }
 
 .projects {
