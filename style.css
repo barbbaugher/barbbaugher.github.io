@@ -57,6 +57,7 @@ footer {
 	grid-row: 6;
 	background-color: #223A5E;
 	color: white;
+	text-align: center;
 }
 
 img, img.scale-with-grid { outline: 0; max-width: 100%; height: auto; }
