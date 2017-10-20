@@ -26,7 +26,6 @@ nav {
 .about {
 	grid-column: 1 / 4;
 	grid-row: 3;
-	background-color: #898E8C;
 }
 
 .projects {
