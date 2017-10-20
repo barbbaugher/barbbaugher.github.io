@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	padding: 0px 5px;
+	font-family: "Arial", "Verdana", sans-serif;
 }
 
 .grid {
@@ -24,7 +25,7 @@ nav {
 .about {
 	grid-column: 1 / 4;
 	grid-row: 3;
-	background-color: purple;
+	background-color: #898E8C;
 }
 
 .projects {
@@ -57,7 +58,7 @@ nav {
 footer {
 	grid-column: 1 / 4;
 	grid-row: 6;
-	background-color: teal;
+	background-color: #223A5E;
 }
 
 img, img.scale-with-grid { outline: 0; max-width: 100%; height: auto; }
