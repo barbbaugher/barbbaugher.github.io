@@ -35,19 +35,19 @@ nav {
 
 #project1 {
 	background-color: orange;
-	grid-column: 1 / 2;
+	grid-column: 1;
 	grid-row: 5;
 }
 
 #project2 {
 	background-color: teal;
-	grid-column: 2 / 3;
+	grid-column: 2;
 	grid-row: 5;
 }
 
 #project3 {
 	background-color: purple;
-	grid-column: 3 / 4;
+	grid-column: 3;
 	grid-row: 5;
 }
 
