@@ -15,8 +15,10 @@ header {
 	grid-row: 1;
 }
 
-#fortune {
-        box-shadow: inset 0 0 $blur-radius $spread-radius;
+@mixin faded($offset, $blur-radius, $spread-radius)
+	{&.faded-all:after, &.faded-left.faded-top.faded-right.faded-bottom:after {
+    box-shadow: inset 0 0 $blur-radius $spread-radius;
+    }
 }
 
 nav {
