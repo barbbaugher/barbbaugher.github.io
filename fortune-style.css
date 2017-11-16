@@ -78,6 +78,48 @@ header {
     }
 }
 
+
+
+
+$faded-offset: 40px !default;
+$faded-blur-radius: 40px !default;
+$faded-spread-radius: 16px !default;
+
+$faded-narrow-offset: 20px !default;
+$faded-narrow-blur-radius: 20px !default;
+$faded-narrow-spread-radius: 10px !default;
+
+$faded-wide-offset: 80px !default;
+$faded-wide-blur-radius: 80px !default;
+$faded-wide-spread-radius: 28px !default;
+
+.faded {
+    position: relative;
+    display: inline-block;
+    color: white;
+
+    &:after {
+        content: "";
+        position: absolute;
+        display: block;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-collapse: separate;
+    }
+
+    @include faded($faded-offset, $faded-blur-radius, $faded-spread-radius);
+
+    &.faded-narrow {
+        @include faded($faded-narrow-offset, $faded-narrow-blur-radius, $faded-narrow-spread-radius);
+    }
+
+    &.faded-wide {
+        @include faded($faded-wide-offset, $faded-wide-blur-radius, $faded-wide-spread-radius);
+    }
+}
+
 nav {
 	grid-column: 2;
 	grid-row: 1;
