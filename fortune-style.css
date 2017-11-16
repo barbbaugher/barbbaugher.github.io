@@ -21,9 +21,9 @@ nav {
 	line-height: 1.5em;
 }
 
-.about {
-	grid-column: 1 / 4;
-	grid-row: 3;
+.input {
+	grid-column: 1;
+	grid-row: 2;
 	line-height: 1.5em;
 	text-indent: 20px;
 }
