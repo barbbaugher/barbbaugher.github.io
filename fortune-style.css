@@ -15,9 +15,12 @@ header {
 	grid-row: 1;
 }
 
-#fortune {
-	box-shadow: 0 0 8px 8px white inset;
+.image-blurred-edge {
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 8px 8px white inset;
 }
+ 
 
 nav {
 	grid-column: 2;
