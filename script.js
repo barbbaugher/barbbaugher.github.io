@@ -1,18 +1,18 @@
-var request = new XMLHttpRequest();
+var firstRequest = new XMLHttpRequest();
 
-request.open('get', 'https://api.github.com/users/barbbaugher')
+firstRequest.open('get', 'https://api.github.com/users/barbbaugher')
 
-request.send()
+firstRequest.send()
 
-function dumpResponse() {
+function response() {
   console.log(this.responseText);
 }
 
-request.onload = dumpResponse;
+firstRequest.onload = response;
 
 function printRepoCount() {
-  var responseObj = JSON.parse(this.responseText);
-  console.log(responseObj.name + " has " + responseObj.public_repos + " public repositories!");
+  var firstResponseObj = JSON.parse(this.responseText);
+  document.getElementById('github-api').innerHTML = firstResponseObj.name + " has " + firstResponseObj.public_repos + " public repositories!";
 }
 
-request.onload = printRepoCount;
+firstRequest.onload = printRepoCount;
