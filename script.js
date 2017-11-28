@@ -4,11 +4,11 @@ firstRequest.open('get', 'https://api.github.com/users/barbbaugher')
 
 firstRequest.send()
 
-function response() {
-  console.log(this.responseText);
+function firstResponse() {
+  console.log(this.firstResponseText);
 }
 
-firstRequest.onload = response;
+firstRequest.onload = firstResponse;
 
 function printRepoCount() {
   var firstResponseObj = JSON.parse(this.responseText);
