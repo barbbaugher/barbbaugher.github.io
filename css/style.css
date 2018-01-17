@@ -27,7 +27,7 @@ nav {
 
 nav a {
     float: left;
-    color: pink;
+    color: #e0876a;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -59,7 +59,7 @@ h1 h2 h4 {
 }
 
 .table {
-	width: 500px;
+	width: 400px;
 	height: 275px;
 	text-align: center;
 }
@@ -72,7 +72,7 @@ h1 h2 h4 {
 footer {
 	grid-column: 1 / 4;
 	grid-row: 6;
-	color: pink;
+	color: #e0876a;
 	text-align: center;
 	line-height: 1.5em;
 }
