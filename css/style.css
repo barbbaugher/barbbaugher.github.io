@@ -1,6 +1,11 @@
 * {
 	padding: 0px 5px;
 	font-family: "Comic Sans MS", cursive, sans-serif;
+	background-image: url("/flowers.png");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
 }
 
 .grid {
@@ -45,11 +50,6 @@ h1 h2 h4 {
 
 
 .about {
-	background-image: url("/flowers.png");
-	background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: 100%;
 	grid-row: 2;
 	grid-column: 1 / 4;
 }
@@ -65,11 +65,6 @@ h1 h2 h4 {
 }
 
 .projects {
-	background-image: url("/flowers.png");
-	background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: 100%;
 	grid-row: 3;
 	grid-column: 1 / 4;
 }
@@ -77,8 +72,7 @@ h1 h2 h4 {
 footer {
 	grid-column: 1 / 4;
 	grid-row: 6;
-	background-color: #f4a688;
-	color: white;
+	color: #e0876a;
 	text-align: center;
 	line-height: 1.5em;
 }
