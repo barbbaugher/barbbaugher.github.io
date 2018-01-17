@@ -43,15 +43,13 @@ h1 h2 h4 {
 	font-family: 'Cabin Sketch';
 }
 
-.background-image {
+
+.about {
 	background-image: url("/flowers.png");
 	background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: 100%;
-}
-
-.about {
 	grid-row: 2;
 	grid-column: 1 / 4;
 }
@@ -67,6 +65,11 @@ h1 h2 h4 {
 }
 
 .projects {
+	background-image: url("/flowers.png");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
 	grid-row: 3;
 	grid-column: 1 / 4;
 }
