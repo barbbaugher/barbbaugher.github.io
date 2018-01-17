@@ -50,6 +50,8 @@ h1 h2 h4 {
 	background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    background-size: auto;
+    background-color: #f9ccac;
 	grid-row: 2;
 	grid-column: 1 / 4;
 }
