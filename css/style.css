@@ -34,7 +34,6 @@ nav a {
 }
 
 nav a:hover {
-    background-color: grey;
     color: pink;
 }
 
@@ -55,10 +54,10 @@ h1 h2 h4 {
 
 #profile {
 	float: left;
-	background-color: white;
 }
 
 .table {
+	float: left;
 	width: 200px;
 	height: 275px;
 	text-align: center;
