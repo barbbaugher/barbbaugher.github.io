@@ -47,7 +47,7 @@ h1 h2 h4 {
 
 .about {
 	background-image: url("/flowers.png");
-    background-repeat: no-repeat;
+    background-repeat: repeat;
 	grid-row: 2;
 	grid-column: 1 / 4;
 }
