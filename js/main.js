@@ -45,7 +45,7 @@ $(document).ready(function(e){
           <a target="_blank" href="${user.html_url}" class="btn btn-outline-secondary btn-block">View GitHub Profile</a>
         </div>  
             <div class="col-md-9">
-              <table class="table table-striped table-hover table-bordered">
+/*              <table class="table table-striped table-hover table-bordered">
                 <tbody>
                   <tr>
                     <td><h4>Company:</h4> <i>${user.company}</i></td>
@@ -55,7 +55,7 @@ $(document).ready(function(e){
                     <td><h4>Public Repos:</h4> <i>${user.public_repos}</i></td>
                     <td><h4>GitHub Member Since:</h4> <i>${user.created_at}</i></td>
                   </tr>
-                </tbody>
+                </tbody>*/
             </div>
       </div>          
       `);
