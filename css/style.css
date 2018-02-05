@@ -23,6 +23,11 @@ nav {
 	grid-column: 3;
 	grid-row: 1;
 	line-height: 1.5em;
+	background-image: url("/flowers.png");
+	background-repeat: no-repeat;
+    	background-attachment: fixed;
+    	background-position: center;
+    	background-size: 100%;
 }
 
 nav a {
@@ -73,4 +78,9 @@ footer {
 	grid-row: 6;
 	text-align: center;
 	line-height: 1.5em;
+	background-image: url("/flowers.png");
+	background-repeat: no-repeat;
+    	background-attachment: fixed;
+    	background-position: center;
+    	background-size: 100%;
 }
