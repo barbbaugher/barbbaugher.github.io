@@ -30,10 +30,10 @@ nav a {
     font-size: 17px;
 }
 
-nav a:hover {
+/* nav a:hover {
     color: #7FA2B7;
 }
-
+ */
 .avatar {
    width: 100%;
 }
